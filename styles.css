@@ -1,0 +1,372 @@
+#main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(/photos/main\ view.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Gilda Display', serif;
+}
+.nav-link{
+    color: white;
+}
+.nav-item{
+    margin-left: 2rem;
+}
+.nav-link:hover{
+    color: #709faf;
+}
+
+.un {
+    display: inline-block;
+  }
+  
+  .un::after {
+    content: '';
+    width: 0px;
+    height: 1px;
+    display: block;
+    background: #709faf;
+    transition: 300ms;
+  }
+  
+  .un:hover::after {
+    width: 100%;
+  }
+
+.navbar-nav { 
+    margin-left: auto;
+    font-size: small;
+    font-weight: bold ;
+    letter-spacing: 0.1rem;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.dl{
+    color: white;
+    border: 1px solid white;
+    border-radius: 0px;
+}
+.dl:hover{
+    background-color: white;
+    color: rgb(65, 63, 63);
+    border-color: white;
+}
+
+.title{
+    text-align: center;
+    padding-top: 9rem;
+    font-size: 4.5rem;
+}
+.btn1{
+    margin-left:43% ;
+    background-color: #709faf;
+    border-radius: 0%;
+    border-color: #709faf;
+    font-size: small;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.2rem;
+    margin-bottom: 15rem;
+    padding: 0.8rem 1.5rem;
+    color: white;
+}
+.btn1:hover{
+    background-color: #4c7887;
+    border-color: #4c7887;
+}
+
+.describe{
+    font-family: 'Gilda Display', serif;
+    font-size: 3.5rem;
+    text-align: center;
+}
+.des1{
+   grid-column-start: 1;
+   grid-column-end: 2;
+   margin-left: auto;
+}
+.des2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.para{
+    font-family: 'Roboto', sans-serif;
+    word-spacing:0.2rem;
+    letter-spacing: 0.1rem;
+    font-size: small;
+    padding: 1.5rem;
+}
+
+#availability{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(/photos/skiingtrack.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Gilda Display', serif;
+    color: white;
+}
+.avail{
+    text-align: center;
+    font-size: 3rem;
+    padding: 2rem;
+}
+.infobox{
+    background-color: #709faf;
+    padding: 1rem;
+    margin: 2rem;
+}
+.check{
+    display: flex;
+    justify-content:space-between;
+    padding: 1.2rem;
+  }
+.check1{
+    border-bottom: 2px solid #ffffff;
+  }
+
+.resinfo{
+padding-bottom: 1rem ;
+margin-left: 1rem;
+}
+.options{
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    color: #709faf;
+    margin: 5rem auto;
+   padding-right:0px ;
+   padding-left: 0px;
+}
+.opt{
+    border-right: 1px solid #709faf;
+    text-align: center;
+}
+.opt1{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: #709faf;
+    color: #ffffff;
+}
+.opt1:hover{
+    background-color: #4c7887;
+    cursor: pointer;
+}
+
+#adventures{
+    background-color: #efefef;
+    padding: 3rem ;
+    font-family: 'Roboto', sans-serif;
+}
+.adv1{
+    background-color: #ffffff;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.climb,.skiing{
+width: 100%;
+height:29rem;
+}
+.skiing{
+    width: 104.2%;
+}
+.adv-title{
+    font-family: 'Gilda Display', serif;
+    font-size: 1.9rem;
+    text-align: center;
+    padding-top: 4rem;
+}
+.adv-content{
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 100;
+    line-height: 2;
+    letter-spacing: 0.1rem;
+    padding: 2rem;
+}
+.readbtn,.r_btn{
+    margin-left: 36%;
+    border: 2px solid #4c7887;
+    color: #4c7887;
+    border-radius: 0%;
+    word-spacing: 0.2rem;
+    font-size: small;
+    padding: 0.8rem 2.4rem;
+}
+.readbtn:hover,.r_btn:hover{
+    background-color: #4c7887;
+    color: #ffffff;
+}
+
+/* room section */
+
+#rooms{
+background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(/photos/hotel\ in\ ice.jpg);
+background-size: 100%;
+font-family: 'Roboto', sans-serif;
+}
+.room_tag{
+font-size: 3.8rem;
+text-align: center;
+padding-top:2rem ;
+color: #ffffff;
+font-family: 'Gilda Display', serif;
+}
+.room{
+display: flex;
+flex-wrap: wrap;
+flex-flow: row;
+/* justify-content: space-between; */
+}
+.stay{
+margin: 2rem;
+width: 400px;
+background-color: #ffffff;
+overflow: hidden;
+}
+.imgs{
+ transition: transform .3s;
+}
+.imgs:hover{
+    transform: scale(1.1);
+}
+
+.room_img1{
+  /* width: 22.4rem; */
+}
+
+.room_img2{
+    /* width: 22.3rem; */
+    /* height: 14.9rem; */
+}
+.room_img3{
+    /* width: 22.3rem; */
+    height: 15.9rem;
+}
+.r_name{
+    margin: 1.5rem;
+    font-family: 'Gilda Display', serif;
+}
+.r_type{
+    margin: 1.5rem;
+    font-weight: 100;
+    word-spacing: 0.25rem;
+    letter-spacing: 0.01rem;
+}
+.r_btn{
+   margin:1.5rem ;
+   font-weight: 700;
+   letter-spacing: 0.1rem;
+   padding: 0.8rem 1.8rem;
+   background-color: #ffffff;
+}
+.icon{
+    margin:auto 0.6rem auto 1.5rem;
+}
+.iconstay{
+    margin:auto 0.1rem auto 1.5rem;
+}
+.iconsfa{
+    padding: 2rem 0.2rem;
+    border-top: 1px solid rgb(150, 146, 146);
+    display: flex;
+    flex-flow: row;
+}
+.read{
+    margin-left: 7rem;
+    color: #709faf;
+    font-weight: 800;
+    font-size: small;
+}
+.read:hover{
+  color: #4c7887;
+  cursor: pointer;
+}
+#client{
+    margin-bottom: 10rem;
+}
+.client_title{
+    font-family: 'Gilda Display', serif;
+    text-align: center;
+    font-size: 3.3rem;
+    margin: 2.5rem auto;
+}
+.clients{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+}
+.client-content{
+    background-color: #a3c6d2;
+    width: 400px;
+    height: 275px;
+    margin: auto 2rem auto 3rem;
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+.cl-cont2{
+    height: 252px;
+}
+.sq{
+    width: 20px;
+    height: 20px;
+    background-color: #a3c6d2;
+    transform: rotate(45deg);
+    margin-left: 45%;
+}
+.face{
+    width: 100px;
+    border-radius: 100%;
+    float: left;
+    margin-right: 1rem;
+    margin-top: 2rem;
+}
+.face_name{
+margin: 3rem auto;
+}
+.face_girl{
+    width: 100px;
+    border-radius: 100%;
+    float: left;
+    margin-right: 1rem;
+    margin-top: 3.5rem;
+}
+.face_name_girl{
+    margin: 3.9rem auto;
+}
+h4{
+    font-family: 'Gilda Display', serif;
+    font-weight: 500;
+}
+#contact{
+    font-family: 'Gilda Display', serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(/photos/last.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+    color: #ffffff;
+}
+.cnt{
+    font-size: 3rem;
+    text-align: center;
+    padding: 1.5rem;
+}
+.about{
+    font-family: 'Roboto', sans-serif;
+}
+.contactbox{
+    padding: 0.7rem 10rem;
+}
+.sendbtn{
+    margin: 2rem auto;
+    padding: 0.5rem;
+    font-weight: 700;
+
+}
+#copyright{
+    background-color: #333333;
+    color:#ffffff;
+    text-align: center;
+    padding: 20px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    padding: 7px;
+}
