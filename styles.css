@@ -1,5 +1,5 @@
 #main{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(/photos/main\ view.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(photos/main\ view.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     color: white;
@@ -96,7 +96,7 @@
 }
 
 #availability{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(/photos/skiingtrack.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(photos/skiingtrack.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     font-family: 'Gilda Display', serif;
@@ -197,7 +197,7 @@ height:29rem;
 /* room section */
 
 #rooms{
-background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(/photos/hotel\ in\ ice.jpg);
+background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(photos/hotel\ in\ ice.jpg);
 background-size: 100%;
 font-family: 'Roboto', sans-serif;
 }
@@ -336,7 +336,7 @@ h4{
 }
 #contact{
     font-family: 'Gilda Display', serif;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(/photos/last.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(photos/last.jpg);
     background-size: 100%;
     background-repeat: repeat;
     color: #ffffff;
